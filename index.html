@@ -8,15 +8,15 @@
     <script>
         var fecha = new Date();
 var horas = fecha.getHours();
-if(horas <= 12 && horas > 1 ){
+if(horas < 12 && horas >= 1 ){
     alert("Buenos Dias, por favor ingrese los datos seleccionados");
 }
 
-if(horas <= 18 && horas > 12){
+if(horas < 18 && horas >= 12){
     alert("Buenas Tardes, por favor ingrese los datos seleccionados");
 }
 
-if(horas <= 23 && horas > 18){
+if(horas < 24 && horas >= 18){
     alert("Buenas Noches, por favor ingrese los datos seleccionados");
 }
 
